@@ -1,4 +1,1 @@
-# anki-jp-flashcard-generator
-# anki-jp-flashcard-generator
-# anki-jp-flashcard-generator
-# anki-jp-flashcard-generator
+# Japanese Anki Flashcard Generator

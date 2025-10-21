@@ -1,0 +1,9 @@
+[package]
+name = "anki_generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ollama-rs = "0.3.2"
+tokio = { version = "1", features = ["rt", "net"] }
+anki_exporter = { path = "anki_exporter" }
