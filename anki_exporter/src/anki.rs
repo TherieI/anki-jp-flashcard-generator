@@ -1,5 +1,5 @@
 use mecab::Tagger;
-use std::rc::Rc;
+use std::sync::Arc;
 
 const KA_HI_OFFSET: u32 = 0x60;
 fn katakana_to_hiragana(katakana: &str) -> String {
@@ -16,8 +16,8 @@ fn katakana_to_hiragana(katakana: &str) -> String {
 
 #[derive(Debug)]
 pub struct Card {
-    front: Rc<str>,
-    back: Rc<str>,
+    front: Arc<str>,
+    back: Arc<str>,
 }
 
 #[derive(Debug, Default)]
